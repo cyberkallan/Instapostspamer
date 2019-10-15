@@ -20,3 +20,6 @@ bash instaspam.sh
 ```
 
 # please subscribe my YouTube channel for more termux tool
+
+
+![cb]
