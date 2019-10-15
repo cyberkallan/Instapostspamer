@@ -1,7 +1,7 @@
 #!/bin/bash
-# InstaSpam v1.0
-# github.com/thelinuxchoice/instaspam
-# Author: @linux_choice (You don't become a coder by just changing the credits)
+# InstapostSpam v1.0
+# https://github.com/cyberkallan/Instapostspamer
+# Author: Cyber kallan (You don't become a coder by just changing the credits)
 
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
@@ -99,8 +99,8 @@ printf "   | |  _ __  ___| |_ __ _| (___  _ __   __ _ _ __ ___   \n"
 printf "   | | | '_ \/ __| __/ _\` |\___ \| '_ \ / _\` | '_ \` _ \  \n"
 printf "  _| |_| | | \__ \ || (_| |____) | |_) | (_| | | | | | | \n"
 printf " |_____|_| |_|___/\__\__,_|_____/| .__/ \__,_|_| |_| |_| \n"
-printf "                                 | |                     \n"
-printf "                                 |_|\e[0m\e[1;92mv1.0 @linux_choice\e[0m                     \n"
+printf "                                 | | c͔ͣͦ́́͂ͅy͉̝͖̻̯ͮ̒̂ͮ͋ͫͨb͎̣̫͈̥̗͒͌̃͑̔̾ͅe̮̟͈̣̖̰̩̹͈̾ͨ̑͑r̼̯̤̈ͭ̃ͨ̆ k̲̱̠̞̖ͧ̔͊̇̽̿̑ͯͅa̘̫͈̭͌͛͌̇̇̍l͕͖͉̭̰ͬ̍ͤ͆̊ͨl͕͖͉̭̰ͬ̍ͤ͆̊ͨa̘̫͈̭͌͛͌̇̇̍n͉̠̙͉̗̺̋̋̔ͧ̊                    \n"
+printf "                                 |_|\e[0m\e[1;92mv1.0 @Cyber kallan\e[0m                     \n"
 printf "\n"
 
 }
